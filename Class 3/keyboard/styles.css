@@ -1,0 +1,40 @@
+body{
+    background: rgb(0, 0, 0)
+}
+
+.container{
+    width: 80%;
+    height: 500px;
+    margin: 100px 100px;
+}
+
+.first, .second {
+ display: flex;
+}
+
+.first div, .second div{
+    color: white;
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+.first .delete{
+    width: 120px;
+    font-size: 30px;
+
+}
+
+.second .tab{
+    width: 100px;
+    font-size: 30px
+
+}
+
+
+
