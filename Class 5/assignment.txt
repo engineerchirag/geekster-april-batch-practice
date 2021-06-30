@@ -1,0 +1,28 @@
+Homework Assignment
+
+1. Refer objects.js and write a function to add a marks field in each student and set them default to 80 for each student. 
+   Use function name as setMarks.
+
+2. Use the following object and pick landmarks and their description from the selected state and store in an array. Return this array as response - 
+
+      var states = {
+        "delhi" : {
+          "cp" : "foodie special",
+          "janpath" : "shopping spot",
+          "sarojini" : "cheap and best"
+        },
+        "bangalore" : {
+          "hsr layout": "pgs and hostels k lie bessst hai!",
+          "kormangala" : "soooo many startups!!",
+        },
+        "hyderabad": {
+          "lb city": "cheap cheap",
+          "electronic city": "msst msst offices"
+        },
+        "agra": {
+          "landmark1": "NA",
+          "landmark2": "NA"
+        }
+      }
+  
+3. Consider above states object and get all states whose state name start with {a,e,i,o,u}
