@@ -1,0 +1,16 @@
+// print even numbers till n
+let n = 9;
+function printEven() {
+  if !(n % 2 == 0) {
+    console.log(n);
+  }
+}
+printEven(n)
+
+
+
+(function() {
+  var a = b = 5;
+})();
+
+console.log(b);

@@ -37,3 +37,29 @@ console.log(`Student with ${name} is ${getStudentWithName(name)}`)
 // console.log(obj)
 // obj["c"] = 3
 // console.log(obj)
+var states = {
+  "delhi" : {
+    "cp" : "foodie special",
+    "janpath" : "shopping spot",
+    "sarojini" : "cheap and best"
+  },
+  "bangalore" : {
+    "hsr layout": "pgs and hostels k lie bessst hai!",
+    "kormangala" : "soooo many startups!!",
+  },
+  "hyderabad": {
+    "lb city": "cheap cheap",
+    "electronic city": "msst msst offices"
+  },
+  "agra": {
+    "landmark1": "NA",
+    "landmark2": "NA"
+  }
+}
+
+for (let state in states) {
+  let vowels = ['a','e','i','o','u']
+  if (vowels.includes(state.charAt(0))) {
+    console.log(state);
+  }
+}
