@@ -1,0 +1,1 @@
+// Pratice to brush up contents from previous sessions from https://www.w3schools.com/js/exercise_js.asp

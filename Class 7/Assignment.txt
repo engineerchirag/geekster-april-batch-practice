@@ -1,0 +1,17 @@
+1. Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string. Go to the editor
+Sample arguments : 'w3resource.com', 'o'
+Expected output : 2
+
+2. Write a JavaScript function to extract unique characters from a string. Go to the editor
+Example string : "thequickbrownfoxjumpsoverthelazydog"
+Expected Output : "thequickbrownfxjmpsvlazydg"
+
+3. Write a Javascript function to check if paranthesis is balanced or not
+Example string: "((()))[]"
+Expected output : true
+
+Example string: "((())[]"
+Expected output : false
+
+Example string: "((({}())))"
+Expected output : true
