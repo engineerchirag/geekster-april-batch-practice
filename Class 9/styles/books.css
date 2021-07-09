@@ -1,0 +1,53 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.main {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.books {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0.5vw;
+  justify-content: center;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  box-shadow: 0 0 0.5vw;
+  border-radius: 0.5vw;
+  margin: 0.5vw;
+}
+
+.image-container {
+  height: 10vh;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  max-height: 10vh;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+hr {
+  width: 100%;
+}
+
+button {
+  margin: 1vw;
+}

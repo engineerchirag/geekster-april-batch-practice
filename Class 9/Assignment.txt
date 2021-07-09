@@ -1,0 +1,8 @@
+Develop simple TODO list:
+
+1. Add new todo when clicked enter / pressed add button
+2. Provide ability to delete todo
+3. Provide ability to makr TODO as done
+    - Provide checkbox to avhieve this
+    - When checkbox is checked, strike the TODO text
+    - When it's not checked display TODO text normally
